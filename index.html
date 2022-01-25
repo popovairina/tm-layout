@@ -106,7 +106,7 @@
                                 <textarea class="ideas-form__textarea"></textarea>
                             </div>
                             <div class="ideas-form__submit">
-                                <input type="submit" class="button primary" value="SEND">
+                                <input type="submit" id="ideasSubmit" class="button primary" value="SEND">
                             </div>
                         </form>
 
@@ -200,6 +200,42 @@
             </div>
         </footer>
     </div>
+    <div class="overlay" id="thank-you-popup">
+        <div class="popup">
+            <div class="popup-content">
+                <h3>Thank you for sending us your idea</h3>
+                <form action="" class="popup-form">
+                    <div class="popup-form__group">
+                        <input class="popup-form__checkbox" checked="checked" type="checkbox" id="notify-ideas">
+                        <label class="popup-form__label" for="notify-ideas">Indicate here if you want to be notified
+                            when new ideas are added. </label>
+                    </div>
+                </form>
+                <a href="#" class="popup__button button primary">Submit another idea</a>
+                <a href="#" class="popup__link">View Catalyst 2022 ideas</a>
+            </div>
+            <div class="popup-close"></div>
+        </div>
+    </div>
+
+    <div class="overlay" id="thank-you-popup-2">
+        <div class="popup">
+            <div class="popup-content">
+                <h3>Thank you for your interest. We'll be in touch shortly.</h3>
+                <form action="" class="popup-form">
+                    <div class="popup-form__group">
+                        <input class="popup-form__checkbox" checked="checked" type="checkbox" id="notify-ideas-2">
+                        <label class="popup-form__label" for="notify-ideas-2">Indicate here if you want to be notified
+                            when new ideas are added. </label>
+                    </div>
+                </form>
+                <a href="#" class="popup__link">View Catalyst 2022 ideas</a>
+            </div>
+            <div class="popup-close"></div>
+        </div>
+    </div>
+
+    <script src="./custom.js"></script>
 </body>
 
 </html>
