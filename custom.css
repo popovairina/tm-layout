@@ -144,6 +144,13 @@ a.popup__button.button.primary:hover {
     background-color: #0d2548;
     color: #fff;
 }
+.popup-login {
+    max-width: 292px;
+    max-height: 294px;
+}
+.popup-login .popup-content {
+    padding: 28px 8px;
+}
 .popup__link {
     font-size: 14px;
     color: #0D2548;
@@ -152,7 +159,35 @@ a.popup__button.button.primary:hover {
     text-decoration: underline;
     font-weight: 700;
 }
-
+.popup__login-title {
+    font-weight: 400;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 1.2px;
+    line-height: 1.3;
+    margin-bottom: 45px;
+}
+.popup__button-wrap {
+    width: 100%;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.popup__button-wrap .popup__login-button {
+    padding: 12px 19px !important;
+    min-width: 118px !important;
+    flex-shrink: 0;
+}
+.popup__login-message {
+    font-size: 14px;
+    color: #E9242C;
+}
+.popup__login-message a {
+    font-size: 14px;
+    font-weight: 700;
+    color: #E9242C;
+}
 
 .header-topbar-wrapper {
     padding: 12px 0;
